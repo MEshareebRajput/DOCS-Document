@@ -13,7 +13,7 @@ function Card({ data }) {
     purple: 'bg-purple-600',
     orange: 'bg-orange-600',
     cyan: 'bg-cyan-600'
-  }[data.tag.tagColor] || 'bg-gray-600'; // Default color if not found
+  }[data.tag.tagColor] || 'bg-gray-600';
 
   return (
     <motion.div drag whileDrag={{scale : 1}} className="relative w-60 h-72 flex-shrink-0 rounded-[45px] bg-zinc-900/10 text-white px-8 py-10 overflow-hidden">
